@@ -1,0 +1,28 @@
+.TodoEditor .editor_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.TodoEditor input {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.TodoEditor input:focus {
+  /* 해당 input에 커서가 입력상태일때 다른 디자인 출력*/
+  outline: none;
+  border: 1px solid #9fa1ee;
+}
+
+.TodoEditor button {
+  cursor: pointer; /* 버튼 위에 마우스 포인터 올라갔을때 손모양으로 포인터 변경*/
+  width: 80px;
+  border: none;
+  background-color: #afc2ff;
+  color: white;
+  border-radius: 5px;
+}
